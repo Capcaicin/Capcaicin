@@ -43,6 +43,10 @@ The thread across my work is simple: I can learn technical systems quickly, expl
 - Product operations, documentation, onboarding, and implementation support
 - Account-management style communication: clear next steps, practical follow-through, and calm troubleshooting
 
+## Learning Log
+
+[`it-systems-notes`](https://github.com/Capcaicin/it-systems-notes) is where I am organizing IT fundamentals, troubleshooting notes, support workflows, and customer-facing technical operations material as it becomes polished enough to share.
+
 ## Current Direction
 
 I am shaping this GitHub profile into a portfolio for technical account management, solutions, customer success, and implementation roles. The projects here are not only about code. They show how I learn a system, explain it, improve it, and connect the technical details back to a real user or business outcome.
