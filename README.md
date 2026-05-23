@@ -4,6 +4,26 @@ Technical account management mindset with hands-on software, AI automation, and 
 
 I like work that sits between people and systems: understanding what a user or customer is trying to accomplish, translating that into a technical plan, and staying close enough to the details to troubleshoot, document, and improve the experience. My projects show practical curiosity across AI tooling, automation, dashboards, media workflows, security labs, and product systems.
 
+## Recruiter Snapshot
+
+High-level visual summary for quick scans. These screenshots are intentionally portfolio-safe: they summarize outcomes, learning, and recruiter signal without exposing private source details.
+
+<img src="assets/recruiter-snapshots/leaderboard.png" alt="Recruiter project leaderboard showing ranked project snapshots for technical account management and customer success roles" width="100%">
+
+<details>
+<summary>Focused project snapshot cards</summary>
+
+<p>
+  <img src="assets/recruiter-snapshots/llm-cascade.png" alt="llm-cascade recruiter snapshot card" width="49%">
+  <img src="assets/recruiter-snapshots/ultimate-tycoon-empire.png" alt="Ultimate Tycoon Empire private project recruiter snapshot card" width="49%">
+</p>
+<p>
+  <img src="assets/recruiter-snapshots/movie-poster-display.png" alt="movie-poster-display recruiter snapshot card" width="49%">
+  <img src="assets/recruiter-snapshots/support-it-operations.png" alt="Support IT and operations recruiter snapshot card" width="49%">
+</p>
+
+</details>
+
 ## Career Direction
 
 I am aiming toward roles where technical fluency and relationship management both matter:
