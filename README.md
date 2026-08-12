@@ -1,72 +1,42 @@
 # Capcaicin
 
-Technical account management mindset with hands-on software, AI automation, and infrastructure skills.
+### AI-assisted technical implementation · QA · automation · support-minded engineering
 
-I like work that sits between people and systems: understanding what a user or customer is trying to accomplish, translating that into a technical plan, and staying close enough to the details to troubleshoot, document, and improve the experience. My projects show practical curiosity across AI tooling, automation, dashboards, media workflows, security labs, and product systems.
+I turn ambiguous requirements into scoped, testable systems and stay with the work through debugging, documentation, and handoff. I care about the part after a demo works: permissions, failure paths, privacy, reproducible checks, and an honest statement of what is still unproven.
 
-## Recruiter Snapshot
+I use AI tools openly as part of development. I remain accountable for requirements, technical decisions, integration, testing, and the accuracy of the claims I publish.
 
-High-level visual summary for quick scans. These screenshots are intentionally portfolio-safe: they summarize outcomes, learning, and recruiter signal without exposing private source details.
+## Where I fit
 
-<img src="assets/recruiter-snapshots/leaderboard.png" alt="Recruiter project leaderboard showing ranked project snapshots for technical account management and customer success roles" width="100%">
+I am building toward roles where technical fluency and clear communication matter together:
 
-<details>
-<summary>Focused project snapshot cards</summary>
-
-<p>
-  <img src="assets/recruiter-snapshots/llm-cascade.png" alt="llm-cascade recruiter snapshot card" width="49%">
-  <img src="assets/recruiter-snapshots/ultimate-tycoon-empire.png" alt="Ultimate Tycoon Empire private project recruiter snapshot card" width="49%">
-</p>
-<p>
-  <img src="assets/recruiter-snapshots/movie-poster-display.png" alt="movie-poster-display recruiter snapshot card" width="49%">
-  <img src="assets/recruiter-snapshots/support-it-operations.png" alt="Support IT and operations recruiter snapshot card" width="49%">
-</p>
-
-</details>
-
-## Career Direction
-
-I am aiming toward roles where technical fluency and relationship management both matter:
-
-- Technical Account Manager
+- Technical Implementation Specialist
+- QA / Software Tester
+- AI Operations or AI Application Evaluator
+- Technical Support Engineer
 - Customer Success Engineer
-- Solutions Consultant
-- Implementation Specialist
-- Product-minded Account Manager
 
-The thread across my work is simple: I can learn technical systems quickly, explain them clearly, and keep the customer outcome in focus.
+## Selected case studies
 
-## Project Leaderboard
+These projects are private because they contain personal, operational, or pre-release material. The linked case studies explain the work without exposing source code, credentials, customer data, or personal records.
 
-| Rank | Project | What it is | What I learned | Recruiter signal |
-|---:|---|---|---|---|
-| 1 | [`llm-cascade`](https://github.com/Capcaicin/llm-cascade) | Local-first AI routing stack with model fallback, RAG integration, dashboarding, Docker support, and secure config patterns. | How to turn AI experimentation into an operational tool with setup docs, launch scripts, observability, and safe secrets handling. | AI-literate, automation-minded, comfortable troubleshooting systems end to end. |
-| 2 | Ultimate Tycoon Empire | Private Roblox tycoon prototype with modular Luau systems, monetization planning, retention loops, UI framework work, and launch collateral. | How product systems, pricing, user progression, and technical architecture connect in a live-service experience. | Strong product sense, commercial thinking, and ability to package technical work for stakeholders. |
-| 3 | [`movie-poster-display`](https://github.com/Capcaicin/movie-poster-display) | Node/Express media display app for poster-style currently-playing screens and metadata automation. | How to integrate external APIs, design a display-first interface, and keep local deployment approachable. | Practical full-stack problem solving with user experience in mind. |
-| 4 | [`parrot-os-docker`](https://github.com/Capcaicin/parrot-os-docker) | Reproducible Parrot OS security lab container for authorized learning, diagnostics, and CI-friendly experimentation. | How to create clean lab environments, document safe usage, and think defensively about tooling. | Security-aware, careful with systems, and serious about repeatable operations. |
-| 5 | [`phonepad-aux-site`](https://github.com/Capcaicin/phonepad-aux-site) | Static privacy and support site for an iOS companion utility. | How product support, compliance pages, App Store requirements, and customer trust connect. | Understands that good technical work includes clear customer-facing support paths. |
-| 6 | [`platform-dao`](https://github.com/Capcaicin/platform-dao) / [`sovereign-dao`](https://github.com/Capcaicin/sovereign-dao) | Decentralized social platform and governance-contract prototypes using React Native, Solidity, and OpenZeppelin patterns. | How to translate product rules, governance constraints, and user rights into technical architecture. | Systems thinker who can reason through complex product, policy, and technical tradeoffs. |
+| Project | What I built and validated | Current evidence | Status |
+|---|---|---|---|
+| [LifeOS](case-studies/lifeos.md) | A private Next.js and Supabase personal-operations system with command-first capture, scoped access, evidence-based insights, and self-hosted operations. | On August 12, 2026: strict TypeScript checks, 416 automated tests, lint, a production build, and a built-browser secret-boundary scan all passed. | Private source; local changes verified; physical-device and later production gates remain explicit. |
+| [CustomDesk](case-studies/customdesk.md) | A local custom-order operations prototype with deterministic pricing, workflow replay, accessibility checks, and separate human-approval gates. | On August 12, 2026: the complete 16-stage local verifier passed, including 618 deterministic replay checks and focused privacy, accessibility, HTTP-boundary, and tamper controls. | Phase 0 only; no customer-validation, payment, or public-deployment claim. |
+| [OpenClaw](case-studies/openclaw.md) | An Obsidian-based knowledge-operations system with a project registry, bounded MCP context compiler, automated health views, and provenance-aware handoffs. | On August 12, 2026: 5/5 context-compiler tests passed; the vault audit reported 513 curated notes with zero broken curated links, orphans, empty notes, or missing frontmatter. | Private local system; audit results measure structure, not the truth of every note. |
 
-## Strengths I Bring
+## How I work
 
-- Customer-first technical troubleshooting: I care about the person using the system, not just the code behind it.
-- Clear documentation: I write setup notes, manuals, and project summaries so someone else can pick up the work.
-- Fast technical learning: I am comfortable moving across Python, Node, Docker, Streamlit, React Native, Solidity, Luau, and GitHub workflows.
-- Product and account instincts: I naturally look for adoption blockers, pricing/retention levers, support gaps, and better handoffs.
-- Security-minded habits: I keep secrets out of source control, prefer sample configs, and document safe operating assumptions.
+1. Clarify the outcome, constraints, and actions that require human approval.
+2. Build the smallest useful path and keep private data out of public surfaces.
+3. Test normal behavior, failure behavior, permissions, accessibility, and secret handling.
+4. Document what passed, what remains gated, and how another person can continue the work.
 
-## Focus Areas
+## Working stack
 
-- AI-assisted workflows, local LLM routing, and retrieval systems
-- Customer-facing dashboards, utilities, and support surfaces
-- Backend services with Python, Node.js, Express, and Docker
-- Product operations, documentation, onboarding, and implementation support
-- Account-management style communication: clear next steps, practical follow-through, and calm troubleshooting
+TypeScript, JavaScript, Next.js, React, Node.js, Python, SQL/Postgres, Supabase, Docker, PowerShell, GitHub Actions, Obsidian, and Model Context Protocol integrations.
 
-## Learning Log
+## A note on authorship
 
-[`it-systems-notes`](https://github.com/Capcaicin/it-systems-notes) is where I am organizing IT fundamentals, troubleshooting notes, support workflows, and customer-facing technical operations material as it becomes polished enough to share.
-
-## Current Direction
-
-I am shaping this GitHub profile into a portfolio for technical account management, solutions, customer success, and implementation roles. The projects here are not only about code. They show how I learn a system, explain it, improve it, and connect the technical details back to a real user or business outcome.
+AI-assisted development is part of my workflow, not a hidden footnote. I use coding agents to accelerate research and implementation, then inspect the result, run repeatable checks, debug failures, and document limitations before treating the work as complete.
