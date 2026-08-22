@@ -28,9 +28,22 @@ Run against the current local worktree on **August 12, 2026**:
 - The optimized Next.js production build completed successfully.
 - The source and freshly built browser bundle passed the repository's secret and client/server-boundary scan.
 
+## Update — August 20, 2026: drift control and restorable backups
+
+Two additions since the verification above, both aimed at the same problem: documentation that quietly stops being true.
+
+**A verifier that binds prose to reality.** Ten checks now run against the live system rather than against the repository's own description of itself. Every count written in the documentation must equal the live local count or the production count on record; commit hashes must resolve; a section that calls itself complete may not hold an unchecked box; the private-network layer must be serving exactly the recorded listeners with public exposure off; the newest backup generation must still have a verified remote twin.
+
+Its most important property is that **unavailable is not success**. When a probe cannot reach what it needs to check, the verifier exits *inconclusive* — never *pass*. A self-test proves all ten probes still detect the drift they were written to catch, so the verifier cannot rot into ten functions that always return true. It runs as a separate operational tier, deliberately outside the commit gate, because one of its checks can only be satisfied by a rebuild that disturbs the running service — and a gate people learn to bypass is worse than no gate.
+
+**Backups with the restore path exercised.** The newest database generation is held as symmetrically encrypted ciphertext on a separate always-on machine, reachable only over the private mesh, and the decrypt path has been run **from the remote copy alone** rather than assumed. Two limits are recorded alongside the claim rather than omitted from it: that machine is on the same local network, so this is machine-loss recovery and not site-loss recovery; and recovery requires a passphrase whose authoritative copy belongs in a password manager, not on the host. Shipping is idempotent by generation identity rather than by hash, because symmetric encryption is salted and identical input produces different bytes on every run.
+
+Custody remains manual until a scheduled task is registered, and the verifier fails on staleness in the meantime. That is the intended behavior: a backup nobody confirmed is a backup nobody has.
+
 ## What this demonstrates
 
 - Translating broad product requirements into enforceable technical rules.
+- Building verification that reports uncertainty honestly instead of defaulting to green.
 - Working across frontend, backend, database authorization, automation, and operations.
 - Treating privacy and failure behavior as product features.
 - Using automated checks and written handoffs to make AI-assisted implementation reviewable.
